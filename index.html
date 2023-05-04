@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <h1>Clone da minha calculadora samsung</h1>
+    <div class="container">
+      <table>
+        <br />
+        <tr>
+          <p id="caixaResultado"></p>
+        </tr>
+        <tr>
+          <td><button class="button" onclick="limpar()">C</button></td>
+          <td><button class="button">()</button></td>
+          <td><button class="button" onclick="">%</button></td>
+          <td><button class="button" onclick="inserir('/')">/</button></td>
+        </tr>
+        <tr>
+          <td><button class="button" onclick="inserir('7')">7</button></td>
+          <td><button class="button" onclick="inserir('8')">8</button></td>
+          <td><button class="button" onclick="inserir('9')">9</button></td>
+          <td><button class="button" onclick="inserir('*')">x</button></td>
+        </tr>
+        <tr>
+          <td><button class="button" onclick="inserir('4')">4</button></td>
+          <td><button class="button" onclick="inserir('5')">5</button></td>
+          <td><button class="button" onclick="inserir('6')">6</button></td>
+          <td><button class="button" onclick="inserir('-')">-</button></td>
+        </tr>
+        <tr>
+          <td><button class="button" onclick="inserir('1')">1</button></td>
+          <td><button class="button" onclick="inserir('2')">2</button></td>
+          <td><button class="button" onclick="inserir('3')">3</button></td>
+          <td><button class="button" onclick="inserir('+')">+</button></td>
+        </tr>
+        <tr>
+          <td><button class="button">+/-</button></td>
+          <td><button class="button" onclick="inserir('0')">0</button></td>
+          <td><button class="button" onclick="inserir('.')">.</button></td>
+          <td><button class="button" onclick="calcular()">=</button></td>
+        </tr>
+      </table>
+      <br />
+    </div>
+    <br />
+    <div>
+      <h2>BOTOES SEM FUNCIONALIDADE</h2>
+      <ol>
+        <li>()</li>
+        <li>%</li>
+        <li>+/-</li>
+      </ol>
+    </div>
+  </body>
+</html>
